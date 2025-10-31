@@ -157,12 +157,9 @@ int main() {
 
             std::cout << '\n' << "What is the length of your opposite? ";
             std::cin >> length_1;
-            std::cout << length_1;
             
             std::cout << '\n' << "What is the length of your hypotenuse ";
             std::cin >> length_2;
-
-            std::cout << length_2;
 
             const double thingy = length_1 / length_2;
 
@@ -179,7 +176,6 @@ int main() {
 
             std::cout << '\n' << "What is the length of your adjacent? ";
             std::cin >> length_1;
-            std::cout << length_1;
             
             std::cout << '\n' << "What is the length of your hypotenuse? ";
             std::cin >> length_2;
@@ -201,12 +197,10 @@ int main() {
 
             std::cout << '\n' << "What is the length of your opposite? ";
             std::cin >> length_1;
-            std::cout << length_1;
             
             std::cout << '\n' << "What is the length of your adjacent ";
-            std::cin >> length_2;
 
-            std::cout << length_2;
+            std::cin >> length_2;
 
             const double thingy = length_1 / length_2;
 
@@ -218,4 +212,5 @@ int main() {
         }
     }
     return 0;
+
 }
